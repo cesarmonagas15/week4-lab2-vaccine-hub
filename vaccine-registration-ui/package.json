@@ -17,5 +17,9 @@
   },
   "scripts": {
     "start": "vite"
-  }
+  },
+  "description": "Run `npm install` to install the required dependencies. Run `npm start` to start the frontend.",
+  "main": "server.js",
+  "author": "",
+  "license": "ISC"
 }
