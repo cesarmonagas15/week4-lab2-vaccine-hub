@@ -13,6 +13,9 @@ const app = express()
 
 
 app.use(express.json())
+app.use(morgan("tiny"))
+
+app.use("/auth", authRoutes)
 
 app.use((req,res,next) =>{
     return next(new NotFoundError())
